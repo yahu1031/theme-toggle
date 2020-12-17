@@ -6,7 +6,7 @@ The ThemeToggle widget is a custom and fancy toggle switch for Themes. You can u
 
 ### Rotating Toggle button
 
-<img src="./assets/rotate.gif"  height=300/>
+<img src="https://s3.ezgif.com/save/ezgif-3-93e5435edcb6.gif"  height=300/>
 
 Just give rotation as true then the emoji rotate on the toggle click.
 
@@ -26,7 +26,7 @@ ThemeToggle(
 
 ### Fading Toggle button
 
-<img src="./assets/fade.gif" height=300/>
+<img src="https://s3.ezgif.com/save/ezgif-3-19e277037dcf.gif" height=300/>
 
 Just give rotation as false then it changes to fade animation.
 
