@@ -35,17 +35,17 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            ThemeToggle(
-              iconOffSize: 30,
-              iconOnSize: 30,
-              rotation: true,
-              onChanged: (bool change) {
-                setState(() {
-                  change = !change;
-                  change ? theme = 'Dark' : theme = 'Light';
-                });
-              },
-            ),
+ThemeToggle(
+  iconOffSize: 30,
+  iconOnSize: 30,
+  rotation: true,
+  onChanged: (bool change) {
+    setState(() {
+      change = !change;
+      change ? theme = 'Dark' : theme = 'Light';
+    });
+  },
+),
             Text(theme),
           ],
         ),

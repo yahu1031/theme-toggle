@@ -1,14 +1,53 @@
 # theme_toggle
 
-A new Flutter package project.
+The ThemeToggle widget is a custom and fancy toggle switch for Themes. You can use custom emoji for on(Dark) and off(light).
 
-## Getting Started
+## Previews
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+### Rotating Toggle button
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+<img src="./assets/rotate.gif"  height=300/>
+
+Just give rotation as true then the emoji rotate on the toggle click.
+
+```dart
+ThemeToggle(
+  iconOffSize: 30,
+  iconOnSize: 30,
+  rotation: true,
+  onChanged: (bool change) {
+    setState(() {
+      change = !change;
+      change ? theme = 'Dark' : theme = 'Light';
+    });
+  },
+)
+```
+
+### Fading Toggle button
+
+<img src="./assets/fade.gif" height=300/>
+
+Just give rotation as false then it changes to fade animation.
+
+```dart
+ThemeToggle(
+  iconOffSize: 30,
+  iconOnSize: 30,
+  rotation: false,
+  onChanged: (bool change) {
+    setState(() {
+      change = !change;
+      change ? theme = 'Dark' : theme = 'Light';
+    });
+  },
+)
+```
+
+## Author
+
+[Minnu](https://github.com/yahu1031/)
+
+## License
+
+[MIT](https://github.com/yahu1031/theme-toggle/blob/main/LICENSE)
