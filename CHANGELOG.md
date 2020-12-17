@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.0.3] - 17 Nov 2020
+
+* updated CHANGELOG.md
+
 ## [0.0.2] - 17 Nov 2020
 
 * updated README.md
