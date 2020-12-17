@@ -1,7 +1,6 @@
 name: theme_toggle
 description: A customized Theme toggle with emoji.
 version: 0.0.1
-author: Minnu
 homepage: https://github.com/yahu1031/theme-toggle.git
 
 environment:
